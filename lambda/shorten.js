@@ -5,6 +5,7 @@ const path = require('path')
 const { shorten } = require('netlify-shortener')
 
 exports.handler = async function (event, context) {
+    const baseUrl = 'example.com'
     if (event.httpMethod !== 'POST') {
         return { statusCode: 405, body: 'Method Not Allowed' }
     }
