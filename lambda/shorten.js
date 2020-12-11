@@ -32,7 +32,7 @@ exports.handler = async function (event, context) {
         },
     })
 
-    const link = shorten(url, endpoint)
+    const link = shorten(baseUrl, dir, url, endpoint)
 
     return {
         statusCode: 200,
