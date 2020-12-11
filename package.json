@@ -1,0 +1,24 @@
+{
+  "name": "netlify-shortener-lambda",
+  "baseUrl": "https://example.com",
+  "version": "1.0.0",
+  "description": "Example application using netlify-shortener package and netlify lambda functions for remote url shortening",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattbeiswenger/netlify-shortener-lambda.git"
+  },
+  "keywords": [],
+  "author": "Matt Beiswenger <mattbeis@yahoo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattbeiswenger/netlify-shortener-lambda/issues"
+  },
+  "homepage": "https://github.com/mattbeiswenger/netlify-shortener-lambda#readme",
+  "scripts": {
+    "shorten": "netlify-shortener"
+  },
+  "dependencies": {
+    "isomorphic-git": "^1.8.0",
+    "netlify-shortener": "github:mattbeiswenger/netlify-shortener"
+  }
+}
