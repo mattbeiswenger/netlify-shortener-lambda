@@ -23,7 +23,7 @@ exports.handler = async function (event, context) {
         http,
         dir,
         corsProxy: 'https://cors.isomorphic-git.org',
-        url: 'https://github.com/mattbeiswenger/shortener',
+        url: 'https://github.com/mattbeiswenger/netlify-shortener-lambda',
         ref: 'main',
         onAuth: () => {
             return {
